@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   config.vm.define "xena" do |xena|
     xena.vm.network "private_network", ip: ADDRESS_IP_XENA
     xena.vm.box = IMAGE_TO_USE
-    petclinic.vm.hostname = "petclinic"
+    xena.vm.hostname = "petclinic"
     xena.vm.provider "virtualbox" do |vb|
      vb.name = "petclinic" 
      vb.cpus = CPU_NUMBER
