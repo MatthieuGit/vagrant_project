@@ -4,7 +4,7 @@
 <a href="https://github.com/spring-projects/spring-petclinic">See the presentation here</a>
 
 ## Running vagrant project locally
-First at all you have to get from [Vagrant Cloud] (https://app.vagrantup.com/mattVagrant/boxes/ubuntu_pet_clinic/versions/1.0) the vagrant boxes
+First at all you have to get from [Vagrant Cloud] (https://app.vagrantup.com/mattVagrant/boxes/ubuntu_pet_clinic/versions/1.0) the vagrant boxes.\n
 Then 3 ways are available to run vagrant boxex
  you can run it from the command line :
 ```
@@ -20,7 +20,7 @@ Vagrant.configure("2") do |config|
     config.vm.box_version = "1.0"
     end
 ```
-Or from this repo git (clone or download)
+Or from this repo git (after a git clone or download)
 ```
 vagrant init
  ```
