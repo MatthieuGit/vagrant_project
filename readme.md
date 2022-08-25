@@ -4,7 +4,7 @@
 <a href="https://github.com/spring-projects/spring-petclinic">See the presentation here</a>
 
 ## Running vagrant project locally
-3 ways are available to run vagrant box
+3 ways are available to run vagrant box.
 You can run it from the command line :
 ```
 vagrant init mattVagrant/ubuntu_pet_clinic \
@@ -12,7 +12,7 @@ vagrant init mattVagrant/ubuntu_pet_clinic \
   vagrant up
 
 ``` 
-From a vagrant File (after run it the command line vagrant init -m).
+From a vagrant ile (after run it the command line vagrant init -m).
 add following lines
 ```
 Vagrant.configure("2") do |config|
@@ -22,7 +22,7 @@ Vagrant.configure("2") do |config|
 ```
 Or from this repo git (after a git clone or download)
 ```
-vagrant init
+vagrant up 
  ```
-You can then access petclinic here: http://10.0.0.10:8080/
+You can then access petclinic here: http://petclinic:8080/
 
