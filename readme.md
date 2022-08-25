@@ -12,7 +12,7 @@ vagrant init mattVagrant/ubuntu_pet_clinic \
   vagrant up
 
 ``` 
-From a vagrant ile (after run it the command line vagrant init -m).
+From a vagrant file (after run it the command line vagrant init -m).
 add following lines
 ```
 Vagrant.configure("2") do |config|
