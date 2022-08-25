@@ -24,5 +24,5 @@ Or from this repo git (after a git clone or download)
 ```
 vagrant up 
  ```
-You can then access petclinic here: http://petclinic:8080/
+You can then access petclinic here: http://10.0.0.10:8080/
 
